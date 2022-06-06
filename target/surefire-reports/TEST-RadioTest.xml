@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="RadioTest" time="0.19" tests="49" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="RadioTest" time="0.362" tests="49" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.14.101-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\irayn\AppData\Local\Temp\surefire15291495370757971998\surefirebooter18313723375335519671.jar C:\Users\irayn\AppData\Local\Temp\surefire15291495370757971998 2022-06-06T06-53-41_635-jvmRun1 surefire10308351631744199047tmp surefire_010718251156889124532tmp"/>
+    <property name="sun.java.command" value="C:\Users\irayn\AppData\Local\Temp\surefire11328951841946683440\surefirebooter4617738848532802009.jar C:\Users\irayn\AppData\Local\Temp\surefire11328951841946683440 2022-06-06T07-03-44_398-jvmRun1 surefire9543046411210915822tmp surefire_0779720944401678757tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\IdeaProjects\HWNJava8.1Radio\target\test-classes;C:\IdeaProjects\HWNJava8.1Radio\target\classes;C:\Users\irayn\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\irayn\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\irayn\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\irayn\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\irayn\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\irayn\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\irayn\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\irayn\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\irayn\AppData\Local\Temp\surefire15291495370757971998\surefirebooter18313723375335519671.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\irayn\AppData\Local\Temp\surefire11328951841946683440\surefirebooter4617738848532802009.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.14.1+1"/>
@@ -61,53 +61,53 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="StationNumberSetTest{int, int}[1]" classname="RadioTest" time="0.042"/>
-  <testcase name="StationNumberSetTest{int, int}[2]" classname="RadioTest" time="0.002"/>
-  <testcase name="StationNumberSetTest{int, int}[3]" classname="RadioTest" time="0"/>
+  <testcase name="StationNumberSetTest{int, int}[1]" classname="RadioTest" time="0.076"/>
+  <testcase name="StationNumberSetTest{int, int}[2]" classname="RadioTest" time="0.001"/>
+  <testcase name="StationNumberSetTest{int, int}[3]" classname="RadioTest" time="0.001"/>
   <testcase name="StationNumberSetTest{int, int}[4]" classname="RadioTest" time="0.001"/>
-  <testcase name="StationNumberSetTest{int, int}[5]" classname="RadioTest" time="0"/>
-  <testcase name="StationNumberSetTest{int, int}[6]" classname="RadioTest" time="0"/>
+  <testcase name="StationNumberSetTest{int, int}[5]" classname="RadioTest" time="0.001"/>
+  <testcase name="StationNumberSetTest{int, int}[6]" classname="RadioTest" time="0.001"/>
   <testcase name="StationNumberSetTest{int, int}[7]" classname="RadioTest" time="0"/>
-  <testcase name="StationVolDownTest{int, int}[1]" classname="RadioTest" time="0.001"/>
+  <testcase name="StationVolDownTest{int, int}[1]" classname="RadioTest" time="0.002"/>
   <testcase name="StationVolDownTest{int, int}[2]" classname="RadioTest" time="0"/>
-  <testcase name="StationVolDownTest{int, int}[3]" classname="RadioTest" time="0"/>
-  <testcase name="StationVolDownTest{int, int}[4]" classname="RadioTest" time="0"/>
-  <testcase name="StationVolDownTest{int, int}[5]" classname="RadioTest" time="0"/>
-  <testcase name="StationVolDownTest{int, int}[6]" classname="RadioTest" time="0.001"/>
-  <testcase name="StationVolDownTest{int, int}[7]" classname="RadioTest" time="0.001"/>
-  <testcase name="StationNumberPrevTest{int, int}[1]" classname="RadioTest" time="0.001"/>
+  <testcase name="StationVolDownTest{int, int}[3]" classname="RadioTest" time="0.001"/>
+  <testcase name="StationVolDownTest{int, int}[4]" classname="RadioTest" time="0.001"/>
+  <testcase name="StationVolDownTest{int, int}[5]" classname="RadioTest" time="0.001"/>
+  <testcase name="StationVolDownTest{int, int}[6]" classname="RadioTest" time="0"/>
+  <testcase name="StationVolDownTest{int, int}[7]" classname="RadioTest" time="0.002"/>
+  <testcase name="StationNumberPrevTest{int, int}[1]" classname="RadioTest" time="0.002"/>
   <testcase name="StationNumberPrevTest{int, int}[2]" classname="RadioTest" time="0.001"/>
-  <testcase name="StationNumberPrevTest{int, int}[3]" classname="RadioTest" time="0.001"/>
-  <testcase name="StationNumberPrevTest{int, int}[4]" classname="RadioTest" time="0.009"/>
-  <testcase name="StationNumberPrevTest{int, int}[5]" classname="RadioTest" time="0"/>
+  <testcase name="StationNumberPrevTest{int, int}[3]" classname="RadioTest" time="0"/>
+  <testcase name="StationNumberPrevTest{int, int}[4]" classname="RadioTest" time="0.001"/>
+  <testcase name="StationNumberPrevTest{int, int}[5]" classname="RadioTest" time="0.002"/>
   <testcase name="StationNumberPrevTest{int, int}[6]" classname="RadioTest" time="0.001"/>
-  <testcase name="StationNumberPrevTest{int, int}[7]" classname="RadioTest" time="0.001"/>
-  <testcase name="StationVolUpTest{int, int}[1]" classname="RadioTest" time="0"/>
+  <testcase name="StationNumberPrevTest{int, int}[7]" classname="RadioTest" time="0"/>
+  <testcase name="StationVolUpTest{int, int}[1]" classname="RadioTest" time="0.002"/>
   <testcase name="StationVolUpTest{int, int}[2]" classname="RadioTest" time="0"/>
-  <testcase name="StationVolUpTest{int, int}[3]" classname="RadioTest" time="0"/>
+  <testcase name="StationVolUpTest{int, int}[3]" classname="RadioTest" time="0.001"/>
   <testcase name="StationVolUpTest{int, int}[4]" classname="RadioTest" time="0.001"/>
   <testcase name="StationVolUpTest{int, int}[5]" classname="RadioTest" time="0"/>
-  <testcase name="StationVolUpTest{int, int}[6]" classname="RadioTest" time="0"/>
-  <testcase name="StationVolUpTest{int, int}[7]" classname="RadioTest" time="0"/>
-  <testcase name="StationVolCurrentSetTest{int, int}[1]" classname="RadioTest" time="0"/>
-  <testcase name="StationVolCurrentSetTest{int, int}[2]" classname="RadioTest" time="0"/>
-  <testcase name="StationVolCurrentSetTest{int, int}[3]" classname="RadioTest" time="0"/>
+  <testcase name="StationVolUpTest{int, int}[6]" classname="RadioTest" time="0.001"/>
+  <testcase name="StationVolUpTest{int, int}[7]" classname="RadioTest" time="0.001"/>
+  <testcase name="StationVolCurrentSetTest{int, int}[1]" classname="RadioTest" time="0.001"/>
+  <testcase name="StationVolCurrentSetTest{int, int}[2]" classname="RadioTest" time="0.001"/>
+  <testcase name="StationVolCurrentSetTest{int, int}[3]" classname="RadioTest" time="0.001"/>
   <testcase name="StationVolCurrentSetTest{int, int}[4]" classname="RadioTest" time="0.001"/>
-  <testcase name="StationVolCurrentSetTest{int, int}[5]" classname="RadioTest" time="0.001"/>
-  <testcase name="StationVolCurrentSetTest{int, int}[6]" classname="RadioTest" time="0.001"/>
-  <testcase name="StationVolCurrentSetTest{int, int}[7]" classname="RadioTest" time="0"/>
+  <testcase name="StationVolCurrentSetTest{int, int}[5]" classname="RadioTest" time="0"/>
+  <testcase name="StationVolCurrentSetTest{int, int}[6]" classname="RadioTest" time="0"/>
+  <testcase name="StationVolCurrentSetTest{int, int}[7]" classname="RadioTest" time="0.001"/>
   <testcase name="StationNumberSetCurrentTest{int, int}[1]" classname="RadioTest" time="0.001"/>
   <testcase name="StationNumberSetCurrentTest{int, int}[2]" classname="RadioTest" time="0.001"/>
-  <testcase name="StationNumberSetCurrentTest{int, int}[3]" classname="RadioTest" time="0.001"/>
+  <testcase name="StationNumberSetCurrentTest{int, int}[3]" classname="RadioTest" time="0"/>
   <testcase name="StationNumberSetCurrentTest{int, int}[4]" classname="RadioTest" time="0.001"/>
-  <testcase name="StationNumberSetCurrentTest{int, int}[5]" classname="RadioTest" time="0"/>
+  <testcase name="StationNumberSetCurrentTest{int, int}[5]" classname="RadioTest" time="0.001"/>
   <testcase name="StationNumberSetCurrentTest{int, int}[6]" classname="RadioTest" time="0"/>
-  <testcase name="StationNumberSetCurrentTest{int, int}[7]" classname="RadioTest" time="0"/>
+  <testcase name="StationNumberSetCurrentTest{int, int}[7]" classname="RadioTest" time="0.001"/>
   <testcase name="StationNumberNextTest{int, int}[1]" classname="RadioTest" time="0.002"/>
-  <testcase name="StationNumberNextTest{int, int}[2]" classname="RadioTest" time="0.001"/>
+  <testcase name="StationNumberNextTest{int, int}[2]" classname="RadioTest" time="0"/>
   <testcase name="StationNumberNextTest{int, int}[3]" classname="RadioTest" time="0"/>
   <testcase name="StationNumberNextTest{int, int}[4]" classname="RadioTest" time="0"/>
-  <testcase name="StationNumberNextTest{int, int}[5]" classname="RadioTest" time="0"/>
-  <testcase name="StationNumberNextTest{int, int}[6]" classname="RadioTest" time="0"/>
+  <testcase name="StationNumberNextTest{int, int}[5]" classname="RadioTest" time="0.001"/>
+  <testcase name="StationNumberNextTest{int, int}[6]" classname="RadioTest" time="0.001"/>
   <testcase name="StationNumberNextTest{int, int}[7]" classname="RadioTest" time="0.001"/>
 </testsuite>

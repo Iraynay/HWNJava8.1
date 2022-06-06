@@ -4,8 +4,9 @@ public class Radio {
 
     private int volume;
     private int stationNumber;
-//ПЕРЕКЛЮЧЕНИЕ СТАНЦИЙ
-    public void setCurrentStationNumber (int currentStationNumber ) {
+
+    //ПЕРЕКЛЮЧЕНИЕ СТАНЦИЙ
+    public void setCurrentStationNumber(int currentStationNumber) {
         if (currentStationNumber > 9) {
             return;
         }
@@ -24,23 +25,25 @@ public class Radio {
         if (stationNumber == 0) {
             newCurrentStationNumber = 9;
         }
-        setCurrentStationNumber (newCurrentStationNumber);
+        setCurrentStationNumber(newCurrentStationNumber);
     }
+
     public void pressNext() {
         int newCurrentStationNumber = stationNumber + 1;
         if (stationNumber == 9) {
             newCurrentStationNumber = 0;
         }
-        setCurrentStationNumber (newCurrentStationNumber);
+        setCurrentStationNumber(newCurrentStationNumber);
     }
+
     public int setNumber(int setNumber) {
-        setCurrentStationNumber (setNumber);
+        setCurrentStationNumber(setNumber);
         return stationNumber;
     }
 
     // РЕГУЛИРОВАНИЕ УРОВНЯ ГРОМКОСТИ ЗВУКА
 
-    public void setCurrentVolume (int currentVolume) {
+    public void setCurrentVolume(int currentVolume) {
         if (currentVolume > 10) {
             return;
         }
@@ -55,7 +58,7 @@ public class Radio {
     }
 
 
-    public int volumeUp (int currentVolume){
+    public int volumeUp(int currentVolume) {
         int newCurrentVolume = volume + 1;
         if (newCurrentVolume >= 10) {
             newCurrentVolume = 10;
@@ -63,7 +66,8 @@ public class Radio {
         this.volume = newCurrentVolume;
         return volume;
     }
-    public int volumeDown (int currentVolume){
+
+    public int volumeDown(int currentVolume) {
         int newCurrentVolume = volume - 1;
         if (newCurrentVolume <= 0) {
             newCurrentVolume = 0;
