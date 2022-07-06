@@ -3,21 +3,25 @@ package ru.netology.radio;
 public class Radio {
 
 
-
     private int maxVolume = 100;
-    private int minVolume;
+    private int minVolume = 0;
     private int stationAmount = 10;
     private int lastStation = stationAmount - 1;
     private int firstStation = 0;
     private int stationNumber = firstStation;
     private int volume = 45;
 
-    public Radio (int maxVol, int minVol, int stationAmount) {
-        this.maxVolume = maxVol;
-        this.minVolume = minVol;
+    public Radio(int stationAmount) {
         this.firstStation = 0;
         this.lastStation = stationAmount - 1;
-        this.stationNumber = firstStation;
+        this.stationNumber = lastStation;
+    }
+
+    public Radio() {
+        this.stationAmount = 10;
+        this.firstStation = 0;
+        this.lastStation = stationAmount - 1;
+        this.stationNumber = lastStation;
     }
 
     public int getStationNumber() {
@@ -29,12 +33,11 @@ public class Radio {
         if (currentStationNumber > lastStation) {
             return;
         }
-        if (currentStationNumber <firstStation) {
+        if (currentStationNumber < firstStation) {
             return;
         }
         this.stationNumber = currentStationNumber;
     }
-
 
 
     public void pressPrev() {
